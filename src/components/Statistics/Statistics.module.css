@@ -1,0 +1,39 @@
+.statistics {
+    width: 400px;
+    margin: 0 auto 32px;
+    background-color: #fff;
+    border: 2px solid #abacbb;
+    border-radius: 8px;
+}
+
+.title {
+    text-align: center;
+    font-family: Roboto;
+    color: #434455;
+    text-transform: uppercase;
+}
+
+.statList {
+    display: flex;
+}
+
+.item {
+    width: 100%;
+    padding: 8px 16px 16px;
+}
+
+.label {
+    display: block;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.percentage {
+    display: block;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-weight: 500;
+}
