@@ -1,55 +1,55 @@
 .profile {
-    margin: 0 auto 32px;
-    padding-top: 32px;
-    width: 300px;
-    background-color: #fff;
-    border: 2px solid #abacbb;
-    border-radius: 8px;
+  margin: 0 auto 32px;
+  padding-top: 32px;
+  width: 300px;
+  background-color: #fff;
+  border: 2px solid #abacbb;
+  border-radius: 8px;
 }
 
 .avatar {
-    display: block;
-    margin: 0 auto 32px;
-    width: 100px;
-    background-color:#E7E9FC;
-    border-radius: 50%;
+  display: block;
+  margin: 0 auto 32px;
+  width: 100px;
+  background-color: #e7e9fc;
+  border-radius: 50%;
 }
 .name {
-    margin-bottom: 8px;
-    text-align: center;
-    font-family: Roboto;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 1.2;
+  margin-bottom: 8px;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
 }
 
 .tagLocation {
-    margin-bottom: 8px;
-    color:  #434455;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;   
+  margin-bottom: 8px;
+  color: #434455;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
 }
 .stats {
-    display: flex;
+  display: flex;
 }
 
 .item {
-    width: 100px;
-    background-color:#E7E9FC;
-    padding: 16px 0;
-    border: 1px solid #abacbb;
+  width: 100px;
+  background-color: #e7e9fc;
+  padding: 16px 0;
+  border: 1px solid #abacbb;
 }
 
 .label {
-    display: block;
-    text-align: center;
-    margin-bottom: 8px;
+  display: block;
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .quantity {
-    display: block;
-    text-align: center;
-    font-weight: 500;
+  display: block;
+  text-align: center;
+  font-weight: 500;
 }
