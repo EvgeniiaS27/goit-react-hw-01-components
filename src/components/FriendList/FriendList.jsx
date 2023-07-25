@@ -1,5 +1,4 @@
 import PropTypes from 'prop-types';
-import { Fragment } from 'react';
 import FriendListItem from 'components/FriendListItem/FriendListItem';
 import css from './FriendList.module.css';
 
@@ -8,14 +7,13 @@ const FriendList = ({ friends }) => {
     <ul className={css.friendList}>
       {friends.map(friend => {
         return (
-          <Fragment key={friend.id}>
-            <FriendListItem
-              avatar={friend.avatar}
-              name={friend.name}
-              isOnline={friend.isOnline}
-              id={friend.id}
-            />
-          </Fragment>
+          <FriendListItem
+            key={friend.id}
+            avatar={friend.avatar}
+            name={friend.name}
+            isOnline={friend.isOnline}
+            id={friend.id}
+          />
         );
       })}
     </ul>
@@ -23,7 +21,11 @@ const FriendList = ({ friends }) => {
 };
 
 FriendList.propTypes = {
-  friends: PropTypes.arrayOf(PropTypes.object.isRequired),
+  friends: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.number.isRequired,
+    })
+  ),
 };
 
 export default FriendList;
